@@ -14,9 +14,13 @@ public class App
     }
 
     public void start() {
-        SodaCan sc1 = new SodaCan();
+        SodaCan sc1 = new SodaCan( 10 , 5 );
         //TODO
         // See question P8.5
+
+
+        System.out.println("SodaCan Height: " + SodaCan.getHeight());
+        System.out.println("SodaCan Radius: " + SodaCan.getRadius());
 
 
     }
